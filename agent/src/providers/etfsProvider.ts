@@ -8,7 +8,7 @@ const etfsProvider: Provider = {
       // Fetch current BTC price from CoinGecko API
       const { data }: { data: ScrapperResponse } = await axios.get('https://etfscrapper-349714367197.us-central1.run.app/api/coinglass');
 
-      console.log(data)
+    //   console.log(data)
       return  `
         Please use this data only when the user explicitly asks for it, and always specify if you are referring to BTC or USD prices. Here's the available information:
 
